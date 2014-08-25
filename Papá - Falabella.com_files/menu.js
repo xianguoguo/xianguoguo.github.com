@@ -1,0 +1,1 @@
+$(document).ready(function(){checkMenu();if(typeof(ontouchstart)!="undefined"){$(".unav_link_").on("mouseover",function(){document.location=$(this).attr("href")})}});function checkMenu(){if(menuHover==false&&hideMenu==true){hideSubMenu();hideMenu=false}hideAllSubs(true);setTimeout("checkMenu()",100)};
